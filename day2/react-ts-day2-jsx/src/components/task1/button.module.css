@@ -1,0 +1,19 @@
+.color_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.color_type {
+    padding-right: 10px;
+}
+
+.color_name {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+.color_name.active {
+    border: 1px solid #000;
+    background-color: #bbafaf;
+}

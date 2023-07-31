@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+h3,
+h4 {
+    margin: 0;
+}
+
+.img_content {
+    width: 300px;
+}
+
+.date_content {
+    font-size: 14px;
+    display: block;
+    margin: 10px 0px;
+    color: #9b9494;
+}
+
+.feature_content {
+    margin: 5px 0px;
+    color: #645959;
+
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+}
+
+.about_content>a {
+    text-decoration: none;
+    color: #000;
+}

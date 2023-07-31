@@ -1,0 +1,13 @@
+.button {
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: #ff6700;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+}
+
+.button_white {
+    background-color: #fff;
+    color: #ff6700;
+}
