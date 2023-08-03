@@ -1,0 +1,14 @@
+.wrap {
+    height: 200px;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap_content {
+    text-align: center;
+    text-transform: uppercase;
+
+}

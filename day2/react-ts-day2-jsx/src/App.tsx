@@ -5,26 +5,34 @@ import Nav from './components/task6/index.js';
 import Policy from './components/task2/index.js';
 import Product from './components/task4/index.js'
 import Buld from './components/task5/bulb.js';
+import Portfolio from './components/task8/portfolio.js';
+import Global from './components/Global/global.js';
 
 function App() {
   return (
-    <div>
-      {/* task1 */}
-      <AttributeColor />
-      {/* task2 */}
-      <Policy />
-      {/* task3 */}
-      <AddCart></AddCart>
-      {/* task4 */}
-      <Product />
-      {/* task5 */}
-      <Buld />
-      {/* task6 */}
-      <Nav></Nav>
-      {/* task7 */}
-      <Video></Video>
-
-    </div>
+    // với Global để css chung cho toàn bộ các task
+    <Global>
+      <div>
+        {/* task1 */}
+        <AttributeColor />
+        {/* task2 */}
+        <Policy />
+        {/* task3 */}
+        <AddCart />
+        {/* task4 */}
+        <Product />
+        {/* task5 */}
+        <Buld />
+        {/* task6 */}
+        <Nav />
+        {/* task7 */}
+        <Video />
+        {/* task8 */}
+        <Portfolio />
+           
+      </div>
+  
+    </Global>
   );
 }
 

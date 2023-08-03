@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap_port {
+    width: 280px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.wrap_port .wrap_content {
+    padding: 10px 10px 10px 20px;
+
+}
+
+.img_port {
+    border-radius: 50%;
+}
+
+
+ul {
+    padding-left: 0;
+    list-style: disc;
+}

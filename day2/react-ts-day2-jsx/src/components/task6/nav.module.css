@@ -45,6 +45,17 @@
     height: 100%;
 }
 
+.icon_wrapper {
+    position: absolute;
+    top: 0%;
+    right: -50%;
+}
+
+.title_item:hover .icon_wrapper {
+    transform: rotate(-180deg);
+    transition: transform 0.3s ease 0s;
+}
+
 .hasChild {
     display: none;
     position: absolute;

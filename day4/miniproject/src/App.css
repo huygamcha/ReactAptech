@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* max-width: 1400px; */
+
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    width: 35%;
+    background-color: #3a58a7;
+    color: #fff;
+}
+
+.information_content {
+    margin: 0 10%;
+
+}
+
+.content {
+    width: 65%;
+}
+
+.label {
+    text-transform: uppercase;
+}

@@ -9,7 +9,7 @@ function ColorItem({ label, active }: { label: string, active?: boolean }) {
 function AttributeColor() {
     return (
         <div className={styles.color_wrap}>
-            <span>Màu sắc</span>
+            <span>Màu sắc:  </span>
             <ColorItem active={true} label='Đen' ></ColorItem>
             <ColorItem label='Hồng' ></ColorItem>
             <ColorItem label='Xanh' ></ColorItem>

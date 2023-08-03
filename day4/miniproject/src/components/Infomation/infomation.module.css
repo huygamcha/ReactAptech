@@ -1,0 +1,14 @@
+.label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.line_space {
+    padding: 4px 0px;
+}
+
+.line_colorfont {
+    color: #9dbaee;
+    font-size: 15px;
+}

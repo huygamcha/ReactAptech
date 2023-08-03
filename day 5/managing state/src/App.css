@@ -1,0 +1,6 @@
+.disable{
+    display: none;
+}
+.disable.active{
+    display: block;
+}

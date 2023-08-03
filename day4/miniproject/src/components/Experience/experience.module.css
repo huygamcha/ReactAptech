@@ -1,0 +1,15 @@
+.ul {
+    list-style-type: none;
+
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.label {
+    text-transform: uppercase;
+    padding: 10px 0px;
+}

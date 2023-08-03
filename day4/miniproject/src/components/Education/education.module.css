@@ -1,0 +1,10 @@
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}

@@ -1,21 +1,23 @@
-import { FaRegHeart } from "react-icons/fa";
+// import { FaRegHeart } from "react-icons/fa";
 import styles from './video.module.css'
 import { videosList } from '../../data/listVideo'
-import { useState } from "react";
+import { ReactNode, } from "react";
 // import $ from 'jquery'
 interface VideoItem {
     id: number;
     title: string;
     desc: string;
     url: string;
-    thumb: string
+    thumb: string;
+    icon: ReactNode;
 }
 function VideoItem({ product }: { product: VideoItem }) {
-    const [like, setLike] = useState(false);
-    const handleClick = () => {
-        setLike(!like)
-    }
-    console.log(like)
+    // const [like, setLike] = useState(false);
+    // const handleClick = () => {
+    //     setLike(!like)
+    // }
+    // console.log(like)
+    const Icon = product.icon
     return (
         <div className={styles.video_wrap}>
             <div className={styles.video_wrap_left}>
@@ -25,12 +27,14 @@ function VideoItem({ product }: { product: VideoItem }) {
                 <div className={styles.video_wrap_label}>
                     <a target="_blank" href={product.url} className={styles.video_title}><strong>{product.title}</strong></a>
                     <div className={styles.video_desc}>{product.desc}</div>
+
                 </div>
             </div>
-            <FaRegHeart
+            <Icon />
+            {/* <FaRegHeart
                 onClick={handleClick}
                 className={`${styles.video_icon} ${like ? styles.active : ''}`}
-            ></FaRegHeart>
+            ></FaRegHeart> */}
         </div >
     )
 }

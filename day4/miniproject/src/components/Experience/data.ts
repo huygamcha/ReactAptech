@@ -1,0 +1,5 @@
+export const experiences = [
+    { id: 1, job: 'fullstack', label: 'company name', value: 'da nang university', year: '2020-2024', desc: 'At Code Institute you are guaranteed a superior learning experience and personalized support system to achieve success and land your first role in tech. ' },
+    { id: 2, job: 'fullstack', label: 'company name', value: 'nguyen binh khiem high school', year: '2017-2020', desc: 'At Code Institute you are guaranteed a superior learning experience and personalized support system to achieve success and land your first role in tech. ' },
+    { id: 3, job: 'fullstack', label: 'company name', value: 'nguyen binh khiem high school', year: '2017-2020', desc: 'At Code Institute you are guaranteed a superior learning experience and personalized support system to achieve success and land your first role in tech. ' }
+]
