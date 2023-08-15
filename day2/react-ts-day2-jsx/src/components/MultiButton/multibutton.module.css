@@ -1,0 +1,11 @@
+.title{
+ cursor: pointer;
+}
+.desc{
+    border: 1px solid #ccc; 
+    /* color: #fff ; */
+    display: none;
+}
+.show{
+    display: block;
+}
